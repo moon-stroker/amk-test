@@ -1,0 +1,19 @@
+:root{
+    --colorBg: #fff;
+}
+/*html{
+    font-size: 10px;
+}*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--colorBg);
+}
+
+figure{
+    margin: 0;
+}

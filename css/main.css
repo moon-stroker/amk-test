@@ -1,0 +1,32 @@
+/*html{
+    font-size: 10px;
+}*/
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+figure{
+    margin: 0;
+}
+.home{
+    height: 100vh;
+    margin-bottom: 0
+}
+.home > *{
+    height: 50%;
+}
+.home img{
+    width: 80%;
+}
+@media only screen and (min-width: 768px){
+    .home{
+        min-height: 600px
+    }
+    .home > *{
+        height: 100%;
+    }
+}
